@@ -38,3 +38,7 @@ Great use of using forks to propose changes for bug fixes. To resolve an issue f
 - [Learn more about contributing to open source projects.](https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution)
 - [Git Cheatsheat](https://training.github.com/downloads/github-git-cheat-sheet/)
 - [Practice is the key, practice you GitHub skils here](https://lab.github.com/)
+
+## And finally, use git and GitHub regularly while working on your projects and assigments to make your workflow much convenient
+
+<img src="./work.gif">
