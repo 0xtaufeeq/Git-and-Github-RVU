@@ -15,8 +15,7 @@ In these classes, you'll be learning -
 ### Points To Remember - 
 
 #### Repository (repo) -
-The directory, located at the top level of a working tree, where Git keeps all the history and metadata for a project. Repositories are almost always referred to as repos. A bare repository is one that isn't part of a working tree; it's used for sharing or backup. A bare repo is usually a directory with a name that ends in .git—for example, project.git.
-
+The directory, located at the top level of a working tree, where Git keeps all the history and metadata for a project.
 
 #### Branch -
 A branch is a version of the repository that diverges from the main working project. It is an essential feature available in most modern version control systems. A Git project can have more than one branch. We can perform many operations on Git branch-like rename, list, delete, etc.
