@@ -24,6 +24,15 @@ The term Pull is used to receive data from GitHub. It fetches and merges changes
 
 <b> Pull requests </b> are a process for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request via their remote server account. Pull request announces all the team members that they need to review the code and merge it into the master branch.
 
+#### Fork
+A fork is a rough copy of a repository. Forking a repository allows you to freely test and debug with changes without affecting the original project.
+
+Great use of using forks to propose changes for bug fixes. To resolve an issue for a bug that you found, you can:
+
+1. Fork the repository.
+2. Make the fix.
+3. Forward a pull request to the project owner.
+
 ## Additional Resources -
 - [Getting started with your GitHub Account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
 - [Learn more about contributing to open source projects.](https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution)
