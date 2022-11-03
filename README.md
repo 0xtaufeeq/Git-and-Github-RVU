@@ -40,26 +40,26 @@ Great use of using forks to propose changes for bug fixes. To resolve an issue f
 ## Git vs GitHub
 As you work with Git and GitHub, you may wonder about the difference between the two.
 
-Git is a distributed version control system (DVCS) that allows multiple developers or other contributors to work on a project. It provides a way to work with one or more local branches and push them to a remote repository. Git is responsible for everything GitHub-related that happens locally on your computer. Key features provided by Git include:
+Git is a distributed version control system (DVCS) that allows multiple developers or other contributors to work on a project. It provides a way to work with one or more local branches and push them to a remote repository. Git is responsible for everything GitHub-related that happens locally on your computer. Key features provided by Git include -
 
-It's installed and used on your local machine
-Handles version control
-Supports branching
-To learn more about Git, see Using common Git commands.
+- It's installed and used on your local machine
+- Handles version control
+- Supports branching
+- To learn more about Git, see [Using common Git commands.](https://docs.github.com/en/free-pro-team@latest/github/using-git/using-common-git-commands)
 
 GitHub is a cloud platform that uses Git as its core technology. It simplifies the process of collaborating on projects and provides a website, command-line tools, and overall flow that allows developers and users to work together. GitHub acts as the "remote repository" mentioned previously in the Git section.
 
-Key features provided by GitHub include:
+Key features provided by GitHub include -
 
-Issues
-Discussions
-Pull requests
-Notifications
-Labels
-Actions
-Forks
-Projects
-To learn more about GitHub, see Getting started with GitHub.
+- Issues
+- Discussions
+- Pull requests
+- Notifications
+- Labels
+- Actions
+- Forks
+- Projects
+- To learn more about GitHub, see [Getting started with GitHub.](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
 
 ## Additional Resources -
 - [Getting started with your GitHub Account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
