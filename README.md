@@ -16,7 +16,7 @@ In these classes, you'll be learning -
 Git is a version control system. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files – called a repository – in a sane, highly structured way. If you have no idea what I’m talking about, think of it as the “Track Changes” features from Microsoft Word on steroids.
 
 ##### Programmers collaborating on large projects without git and GitHub be like - 
-![No-Git](nogit.gif)
+![No-Git](./assets/nogit.gif)
 
 
 ### Points To Remember - 
@@ -76,4 +76,4 @@ Key features provided by GitHub include -
 
 ## And finally, use git and GitHub regularly while working on your projects and assigments to make your workflow much convenient
 
-<img src="./work.gif">
+<img src="./assets/work.gif">
