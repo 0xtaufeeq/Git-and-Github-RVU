@@ -9,4 +9,4 @@ In these classes, you'll be learning -
 6. how to use github with other services like replit
 
 ## Introduction to GitHub
-
+![notes](https://github.com/TaufeeqRiyaz/Git-and-Github-BSc-RVU/blob/44640290359cf358ac636cb0e4f3fcd1a2ec0950/notes.jpg)
