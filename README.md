@@ -7,3 +7,6 @@ In these classes, you'll be learning -
 4. how to host websites using github pages
 5. how to use github desktop application
 6. how to use github with other services like replit
+
+## Introduction to GitHub
+
