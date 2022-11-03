@@ -10,7 +10,7 @@ In these classes, you'll be learning -
 
 ## Introduction to GitHub
 
-![notes](https://github.com/TaufeeqRiyaz/Git-and-Github-BSc-RVU/blob/44640290359cf358ac636cb0e4f3fcd1a2ec0950/notes.jpg)
+![notes](./assets/notes.jpg)
 
 ## Okay, But Why? 
 Git is a version control system. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files – called a repository – in a sane, highly structured way. If you have no idea what I’m talking about, think of it as the “Track Changes” features from Microsoft Word on steroids.
