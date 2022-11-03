@@ -19,7 +19,7 @@ A branch is a version of the repository that diverges from the main working proj
 #### Push -
 The push term refers to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repository. Pushing is capable of overwriting changes; caution should be taken when pushing.
 
-#### Pull/Pull Request
+#### Pull/Pull Request -
 The term Pull is used to receive data from GitHub. It fetches and merges changes on the remote server to your working directory. The git pull command is used to make a Git pull.
 
 <b> Pull requests </b> are a process for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request via their remote server account. Pull request announces all the team members that they need to review the code and merge it into the master branch.
