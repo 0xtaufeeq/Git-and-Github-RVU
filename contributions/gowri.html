@@ -1,0 +1,21 @@
+<html>
+    <head><title>Event handling in javascript</title></head>
+    <body>
+        
+            <label for="State">State:</label>
+            <input type="text" id="name" onChange="changeText()"></input>
+            <p id="myDisplay"></p>
+            <label for="Capital">Capital:</label>
+            <input type="captail" id="capname" onChange="changeText()"></input>
+            <p id="display1"></p>
+            <script>
+                function changeText(){
+                    var entry=document.getElementById("name").value;
+                    document.getElementById("myDisplay").innerHTML="You entered "+ entry;
+                    var cap=document.getElementById("capname").value;
+                    document.getElementById("display1").innerHTML="The captial is "+cap;
+                }
+            </script>
+        
+    </body>
+</html>
