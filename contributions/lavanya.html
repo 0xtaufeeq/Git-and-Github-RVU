@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class activity</title>
+        <style>
+            .container
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <label>Enter the model of your laptop: </label>
+            <input type="text" id="car"><br>
+                <select id="list1" onchange="MyEventlist()">
+                    <option>blue</option>
+                    <option>black</option>
+                    <option>grey</option>
+            </select>
+            <button onclick="myalert()">
+                show alert
+            
+            </button>
+            <p id="myp"></p>
+            <script>
+                function MyEventlist()
+                {
+                    var v1 = document.getElementById("car").value;
+                    var v2 = document.getElementById("list1").value;
+                    document.getElementById("myp").innerHTML = "The model of the laptop and color is : " + v1 + " and " + v2;
+                }
+                function myalert()
+                {
+                    var v1 = document.getElementById("car").value;
+                    var v2 = document.getElementById("list1").value;
+                    alert("The model of the laptop and color is : " + v1 + " and " + v2)
+
+                }
+            </script>
+        </div>
+    </body>
+</html>
