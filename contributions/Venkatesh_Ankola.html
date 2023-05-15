@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Bulg on anf off</title>
+    </head>
+    <body>
+        <style>
+            .button{
+                padding: 10px;
+            }
+            img {
+        border:2px solid rgb(12, 20, 9);
+      } 
+      body{
+        background-color:pink
+      }
+        </style>
+        <!-- <img src="https://cdn4.vectorstock.com/i/1000x1000/26/28/light-bulb-on-white-background-vector-3872628.jpg" width="20%"> -->
+        <img id="bulb" src="https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg" width="20%" ><br>
+        <button class="button" id="on" style="color: yellow;"  onclick="B(true)">On</button>
+        <button class="button" id="off" style="color: red;" onclick="B(false)">Off</button>
+        <script>
+            function B(ison){
+                
+                if(ison){
+                img.src = "https://cdn4.vectorstock.com/i/1000x1000/26/28/light-bulb-on-white-background-vector-3872628.jpg";
+                }
+                else
+                {
+                    img.src = "https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg";
+                }
+            }
+                
+
+            
+            
+            
+        </script>
+    </body>
+</html>
+      
