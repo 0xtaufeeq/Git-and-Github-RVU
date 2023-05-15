@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Calculator</title>
+        
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <form>
+            <label for="num1">Enter the number 1</label>
+            <input type="number" id="num1" name="num1"><br>
+            <label for="num2">Enter the number 2</label>
+            <input type="number" id="num2" name="num2"><br>
+            <input type="button" value="add" onclick="addNumbers()"><br>
+            <input type="button" value="Subtraction" onclick="sub()"><br>
+            <input type="button" value="multiplication" onclick="multi()"><br>
+            <input type="button" value="division" onclick="division()"><br>
+        </form>
+        <script>
+            
+          function addNumbers() {
+			let num1 = parseInt(document.getElementById("num1").value);
+			let num2 = parseInt(document.getElementById("num2").value); 
+			let sum = num1 + num2;
+			alert("The sum of the two numbers is: " + sum);
+		}
+        function sub(){
+            let num1 = parseInt(document.getElementById("num1").value);
+			let num2 = parseInt(document.getElementById("num2").value);
+			let Subtraction = num1 - num2;
+			alert("The sub of the two numbers is: " + Subtraction);
+        }
+        
+        function multi(){
+            let num1 = parseInt(document.getElementById("num1").value);
+			let num2 = parseInt(document.getElementById("num2").value);
+			let multiplication = num1 * num2;
+			alert("The sub of the two numbers is: " + multiplication);
+        }
+
+        function division(){
+            let num1 = parseInt(document.getElementById("num1").value);
+			let num2 = parseInt(document.getElementById("num2").value);
+			let division = num1 / num2;
+			alert("The sub of the two numbers is: " + division);
+        }
+        </script>
+    </body>
+</html>
