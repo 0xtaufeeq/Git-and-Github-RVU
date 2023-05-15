@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practise</title>
+    <style>
+        body{
+            text-align: center;
+            padding-top: 200px;
+            padding-right: 100px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+   <label for="name">First Name:</label>
+   <input type="text" id="text1" ><br><br>
+   <label for="name">Second Name:</label>
+   <input type="text" id="text2" ><br><br>
+   <button value="sub" onclick="myevent()">Submit</button>
+   <p id="para"></p>
+   <script>
+        function myevent()
+        {
+            var x = document.getElementById("text1").value;
+            var y = document.getElementById("text2").value;
+            document.getElementById("para").innerHTML="Your Name: "+ x+y;
+        }
+   </script>
+</body>
+</html>
